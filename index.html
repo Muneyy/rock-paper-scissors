@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js" async></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
-
+    <div class="header">
+        <h1>Rock-Paper-Scissors</h1>
+        <p>Play against a computer in a first-to-5 match!</p>
+    </div>
+    <div class="contentScore">
+        <div class="contentScoreboard">
+            <h2 id="playerScore">0</h2>
+            <h2>-</h2>
+            <h2 id="computerScore">0</h2>
+        </div>
+        <div class="contentTextResult">
+            <p id="Result">Test your luck!</p>
+        </div>
+    </div>
+    <div class="contentResults">
+        <img class="Result" id="playerResult" src="./images/Rock.png">
+        <h3>Vs.</h3>
+        <img class="Result" id="computerResult" src="./images/Rock.png">
+    </div>
+    <div class="contentButtons">
+        <button class="inputButton Result" id="Rock"><img src="./images/Rock.png"></button>
+        <button class="inputButton Result" id="Paper"><img src="./images/Paper.png"></button>
+        <button class="inputButton Result" id="Scissors"><img src="./images/Scissors.png"></button>
+    </div>
+    <div class="footer">
+        <span>icons from -></span>
+        <a href="https://www.vecteezy.com/free-vector/rock-paper-scissors"> Rock 
+            Paper Scissors Vectors by Vecteezy</a>
+    </div>
     
 </body>
 </html>

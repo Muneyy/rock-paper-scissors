@@ -1,0 +1,123 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    transition: ease 0.3s;
+    border: 0;
+}
+
+button:hover {
+    border-width: 1px;
+    /* box-shadow: 5px 5px; */
+    filter: invert(0.9);
+}
+
+.header {
+    text-align: center;
+    /* background-color: #3aafa9;; */
+    /* color: #feffff; */
+    text-shadow: 2px;
+    margin: 4px 10% 0;
+    padding: 16px 8px;
+}
+
+.contentScore {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 32px;
+    margin: 0 15%;
+    /* background-color: aqua; */
+}
+
+.contentScoreboard {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    gap: 32px;
+    margin: 0 10%;
+    flex-wrap: wrap;
+    padding: 0 16px;
+    border: 1px salmon;
+}
+
+.contentTextResult {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 10%;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.contentResults {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin: 0 10%;
+    padding: 0 8px 16px;
+    flex-wrap: wrap;
+    height: 250px;
+    transform: translate(0, -13%);
+    /* background-color: beige; */
+}
+
+.contentResults img {
+    width: auto;
+    height: 200px;
+    transition: ease 0.3s;
+
+}
+
+.contentButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 10%;
+    padding: 16px 8px;
+    /* background-color: aliceblue; */
+}
+
+.contentButtons img {
+    width: 260px;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 128px 0 0 0;
+    margin: 64px 10%;
+    padding: 16px 8px;
+}
+
+.playing-tie {
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem #3aafa9;
+  }
+
+.playing-winner {
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem #65b425;
+}
+
+.playing-loser {
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem #d45737;
+}
+
+.buttonOnClick {
+    transform: scale(1.05);
+}
+
+.Result {
+    background-color: #65b425;
+}
+
